@@ -1,0 +1,17 @@
+diff --git a/Webinar/Modules/Profile/ProfileCell.swift b/Webinar/Modules/Profile/ProfileCell.swift
+index 3db2b4b96..a677f6639 100644
+--- a/Webinar/Modules/Profile/ProfileCell.swift
++++ b/Webinar/Modules/Profile/ProfileCell.swift
+@@ -5,11 +5,9 @@
+ import UIKit
+ 
+ class ProfileTableViewCell: UITableViewCell {
+-    static let indetificator = "ProfileTableViewCell"
+     
++    static let indetificator = "ProfileTableViewCell"
+     private let iconContainer = UIView()
+-
+-    
+     private let iconImage = UIImageView()
+ 
+     private let label = UILabel()
